@@ -1,0 +1,2 @@
+# CloneableInterface
+PHP Cloneable Interface
