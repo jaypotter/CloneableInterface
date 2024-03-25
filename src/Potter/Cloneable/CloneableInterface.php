@@ -6,5 +6,5 @@ namespace Potter\Cloneable;
 
 interface CloneableInterface
 {
-    public function getClone(): CloneableInterface;
+    public function getClone(): static;
 }

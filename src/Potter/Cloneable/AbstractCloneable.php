@@ -6,7 +6,7 @@ namespace Potter\Cloneable;
 
 abstract class AbstractCloneable implements CloneableInterface
 {
-    abstract public function getClone(): CloneableInterface;
-    abstract protected function with(string $id, mixed $entry): CloneableInterface;
-    abstract protected function without(string $id): CloneableInterface;
+    abstract public function getClone(): static;
+    abstract protected function with(string $id, mixed $entry): static;
+    abstract protected function without(string $id): static;
 }
