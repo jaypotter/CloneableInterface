@@ -5,6 +5,11 @@
     "require": {
         "php": "^8.3"
     },
+    "suggest": {
+        "potter/cloneable": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
